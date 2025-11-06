@@ -15,7 +15,7 @@
 
 .header__links-list {
     display: flex;
-    gap: 25px;
+    gap: 30px;
 }
 
 .header__links-list-item_no-bullit {
@@ -108,7 +108,7 @@
     left: 50px;
     right: 50px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .cover__description-text {
@@ -127,8 +127,7 @@
 
 .lots {
     margin: 0 24px 120px 24px;
-    width: 1052px;
-    min-height: 723px;
+    /*min-height: 723px;*/
 }
 
 .lots__heading {
@@ -189,23 +188,23 @@
 
 .card__title {
     font-size: 22px;
-    text-decoration: line;
+    text-decoration: underline;
     text-transform: uppercase;
 
 }
 
 .lots__look-more-link {
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 30px;
     padding-left: 40px;
+    text-decoration:underline;
 }
 
 .about {
-    margin: 180px auto;
-    width: 1052px;
+    margin: 120px 24px 180px;
     display: grid;
-    grid-template-columns: 359px 1fr;
-    column-gap: 24px;
+    grid-template-columns: 334px 1fr;
+    column-gap: 25px;
 }
 
 .about__logo {
